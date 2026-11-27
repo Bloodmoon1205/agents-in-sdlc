@@ -1,0 +1,30 @@
+{
+  "AERO-USDT-SWAP": {
+    "active": "v1",
+    "shadow": null
+  },
+  "HYPE-USDT-SWAP": {
+    "active": "v1",
+    "shadow": null
+  },
+  "JUP-USDT-SWAP": {
+    "active": "v1",
+    "shadow": null
+  },
+  "LIT-USDT-SWAP": {
+    "active": "v1",
+    "shadow": null
+  },
+  "PUMP-USDT-SWAP": {
+    "active": "v1",
+    "shadow": null
+  },
+  "SKY-USDT-SWAP": {
+    "active": "v1",
+    "shadow": null
+  },
+  "UNI-USDT-SWAP": {
+    "active": "v1",
+    "shadow": null
+  }
+}

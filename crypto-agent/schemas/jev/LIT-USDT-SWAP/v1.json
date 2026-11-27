@@ -1,0 +1,49 @@
+{
+  "version": "v1",
+  "symbol": "LIT-USDT-SWAP",
+  "questions": {
+    "regime": {
+      "kind": "choice",
+      "instructions": "Which market regime best describes LIT right now? State is a compact numeric snapshot of the LIT-USDT-SWAP perpetual: order book (px), returns in bps (ret_bps), realized vol (vol), trade flow (flow), our position (pos), fundamentals (fund) and market context (mkt). Thesis: Lighter fees +29% and holders revenue +74% month over month at 11x price/holders-revenue. Bear case: 25% float; team and investor tokens (50% of supply) reportedly hit a one-year cliff around 2026-12-30 (sources conflict); FDV/holders-revenue 43x.",
+      "criteria": {
+        "trending": "Persistent directional move: returns over 1h and 4h share a sign and vol is normal for this asset.",
+        "mean_reverting": "Range-bound: short-term moves fade, returns flip sign, vol at or below its 24h level.",
+        "high_vol": "Volatility well above its 24h level (vol.ratio high) without disorderly market structure.",
+        "crisis": "Disorderly: large 24h drawdown, very high vol, wide spreads or thin depth, one-sided flow, market-wide stress."
+      }
+    },
+    "direction": {
+      "kind": "choice",
+      "instructions": "Which direction for LIT has the better expected result over the next ~4 hours after ~15 bps of costs? State is a compact numeric snapshot of the LIT-USDT-SWAP perpetual: order book (px), returns in bps (ret_bps), realized vol (vol), trade flow (flow), our position (pos), fundamentals (fund) and market context (mkt). Thesis: Lighter fees +29% and holders revenue +74% month over month at 11x price/holders-revenue. Bear case: 25% float; team and investor tokens (50% of supply) reportedly hit a one-year cliff around 2026-12-30 (sources conflict); FDV/holders-revenue 43x.",
+      "criteria": {
+        "long": "Rises: overhang already priced, fees keep compounding, buyers absorb supply.",
+        "short": "Falls: supply anticipation into the insider cliff, buyers step back, sells hit the bid.",
+        "neutral": "No edge after costs, signals conflict, or the move has already happened."
+      }
+    },
+    "toxic_flow": {
+      "kind": "noul",
+      "instructions": "Recent LIT order flow looks informed or one-sided enough that a position opened now would likely be adversely selected (sweeps through levels, sudden spread widening, trade bursts against the resting book).",
+      "criteria": null
+    },
+    "setup_quality": {
+      "kind": "score",
+      "instructions": "How good is the trade setup for LIT right now? State is a compact numeric snapshot of the LIT-USDT-SWAP perpetual: order book (px), returns in bps (ret_bps), realized vol (vol), trade flow (flow), our position (pos), fundamentals (fund) and market context (mkt). Thesis: Lighter fees +29% and holders revenue +74% month over month at 11x price/holders-revenue. Bear case: 25% float; team and investor tokens (50% of supply) reportedly hit a one-year cliff around 2026-12-30 (sources conflict); FDV/holders-revenue 43x.",
+      "criteria": [
+        "No setup: conflicting signals, thin or unstable book, or the move already happened.",
+        "Weak: one supporting signal, others neutral or mixed.",
+        "Good: price action, order flow and fundamentals agree on direction; liquidity is adequate.",
+        "Excellent: strong agreement across flow, regime and fundamentals, tight spread, no conflicting risk."
+      ]
+    },
+    "risk_state": {
+      "kind": "choice",
+      "instructions": "Given our position, drawdown and daily P&L in pos, what is the risk state for LIT?",
+      "criteria": {
+        "safe": "Comfortable room: small inventory, shallow drawdown, daily P&L not near a loss limit.",
+        "near_limit": "Drawdown, daily loss or inventory is approaching the levels where we would have to cut.",
+        "reduce": "Exposure should be cut now: losses accelerating or inventory too large for current conditions."
+      }
+    }
+  }
+}

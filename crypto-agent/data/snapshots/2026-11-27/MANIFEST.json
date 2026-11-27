@@ -1,0 +1,140 @@
+{
+  "cg_global": {
+    "url": "https://api.coingecko.com/api/v3/global",
+    "fetched_utc": "2026-11-27T22:11:25+00:00",
+    "bytes": 3739,
+    "ok": true
+  },
+  "cg_markets_1": {
+    "url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&price_change_percentage=7d,30d,1y",
+    "fetched_utc": "2026-11-27T22:11:32+00:00",
+    "bytes": 235493,
+    "ok": true
+  },
+  "cg_btc_365d": {
+    "url": "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=365&interval=daily",
+    "fetched_utc": "2026-11-27T22:11:38+00:00",
+    "bytes": 37766,
+    "ok": true
+  },
+  "cg_eth_365d": {
+    "url": "https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=usd&days=365&interval=daily",
+    "fetched_utc": "2026-11-27T22:11:44+00:00",
+    "bytes": 37975,
+    "ok": true
+  },
+  "llama_stables_all": {
+    "url": "https://stablecoins.llama.fi/stablecoincharts/all",
+    "fetched_utc": "2026-11-27T22:11:50+00:00",
+    "bytes": 1372129,
+    "ok": true
+  },
+  "llama_stables_list": {
+    "url": "https://stablecoins.llama.fi/stablecoins?includePrices=false",
+    "fetched_utc": "2026-11-27T22:11:50+00:00",
+    "bytes": 578842,
+    "ok": true
+  },
+  "llama_fees": {
+    "url": "https://api.llama.fi/overview/fees?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true",
+    "fetched_utc": "2026-11-27T22:11:51+00:00",
+    "bytes": 6102810,
+    "ok": true
+  },
+  "llama_revenue": {
+    "url": "https://api.llama.fi/overview/fees?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyRevenue",
+    "fetched_utc": "2026-11-27T22:11:51+00:00",
+    "bytes": 5655956,
+    "ok": true
+  },
+  "llama_holders_rev": {
+    "url": "https://api.llama.fi/overview/fees?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyHoldersRevenue",
+    "fetched_utc": "2026-11-27T22:11:51+00:00",
+    "bytes": 2737758,
+    "ok": true
+  },
+  "llama_protocols": {
+    "url": "https://api.llama.fi/protocols",
+    "fetched_utc": "2026-11-27T22:11:51+00:00",
+    "bytes": 9730075,
+    "ok": true
+  },
+  "okx_funding_btc": {
+    "url": "https://www.okx.com/api/v5/public/funding-rate?instId=BTC-USDT-SWAP",
+    "fetched_utc": "2026-11-27T22:11:51+00:00",
+    "bytes": 525,
+    "ok": true
+  },
+  "okx_funding_eth": {
+    "url": "https://www.okx.com/api/v5/public/funding-rate?instId=ETH-USDT-SWAP",
+    "fetched_utc": "2026-11-27T22:11:52+00:00",
+    "bytes": 524,
+    "ok": true
+  },
+  "okx_funding_hist_btc": {
+    "url": "https://www.okx.com/api/v5/public/funding-rate-history?instId=BTC-USDT-SWAP&limit=100",
+    "fetched_utc": "2026-11-27T22:11:52+00:00",
+    "bytes": 19134,
+    "ok": true
+  },
+  "okx_oi_swap": {
+    "url": "https://www.okx.com/api/v5/public/open-interest?instType=SWAP",
+    "fetched_utc": "2026-11-27T22:11:52+00:00",
+    "bytes": 76555,
+    "ok": true
+  },
+  "okx_oi_hist_btc": {
+    "url": "https://www.okx.com/api/v5/rubik/stat/contracts/open-interest-volume?ccy=BTC&period=1D",
+    "fetched_utc": "2026-11-27T22:11:52+00:00",
+    "bytes": 9738,
+    "ok": true
+  },
+  "okx_lsr_btc": {
+    "url": "https://www.okx.com/api/v5/rubik/stat/contracts/long-short-account-ratio?ccy=BTC&period=1D",
+    "fetched_utc": "2026-11-27T22:11:52+00:00",
+    "bytes": 4510,
+    "ok": true
+  },
+  "fng": {
+    "url": "https://api.alternative.me/fng/?limit=60",
+    "fetched_utc": "2026-11-27T22:11:53+00:00",
+    "bytes": 5756,
+    "ok": true
+  },
+  "fred_dff": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFF&cosd=2025-01-01",
+    "fetched_utc": "2026-11-27T22:11:54+00:00",
+    "bytes": 11141,
+    "ok": true
+  },
+  "fred_dgs10": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2025-01-01",
+    "fetched_utc": "2026-11-27T22:11:54+00:00",
+    "bytes": 7863,
+    "ok": true
+  },
+  "fred_dxy_broad": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DTWEXBGS&cosd=2025-01-01",
+    "fetched_utc": "2026-11-27T22:11:54+00:00",
+    "bytes": 9714,
+    "ok": true
+  },
+  "fred_t10yie": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE&cosd=2025-01-01",
+    "fetched_utc": "2026-11-27T22:11:55+00:00",
+    "bytes": 7892,
+    "ok": true
+  },
+  "fred_walcl": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WALCL&cosd=2025-01-01",
+    "fetched_utc": "2026-11-27T22:11:55+00:00",
+    "bytes": 1923,
+    "ok": true
+  },
+  "fred_m2": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=M2SL&cosd=2025-01-01",
+    "fetched_utc": "2026-11-27T22:11:55+00:00",
+    "bytes": 440,
+    "ok": true
+  }
+}

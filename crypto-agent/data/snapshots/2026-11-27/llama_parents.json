@@ -1,0 +1,925 @@
+{
+  "parent#circle": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Circle",
+    "slug": "circle",
+    "fetched_utc": "2026-11-27T22:13:27+00:00"
+  },
+  "parent#hyperliquid": {
+    "gecko_id": "hyperliquid",
+    "symbol": "HYPE",
+    "name": "Hyperliquid",
+    "slug": "hyperliquid",
+    "fetched_utc": "2026-11-27T22:13:27+00:00"
+  },
+  "parent#polymarket": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Polymarket",
+    "slug": "polymarket",
+    "fetched_utc": "2026-11-27T22:13:27+00:00"
+  },
+  "parent#pump": {
+    "gecko_id": "pump-fun",
+    "symbol": "PUMP",
+    "name": "Pump",
+    "slug": "pump",
+    "fetched_utc": "2026-11-27T22:13:28+00:00"
+  },
+  "parent#uniswap": {
+    "gecko_id": "uniswap",
+    "symbol": "UNI",
+    "name": "Uniswap",
+    "slug": "uniswap",
+    "fetched_utc": "2026-11-27T22:13:28+00:00"
+  },
+  "parent#aave": {
+    "gecko_id": "aave",
+    "symbol": "AAVE",
+    "name": "Aave",
+    "slug": "aave",
+    "fetched_utc": "2026-11-27T22:13:28+00:00"
+  },
+  "parent#maker": {
+    "gecko_id": "sky",
+    "symbol": "SKY",
+    "name": "Sky",
+    "slug": "sky",
+    "fetched_utc": "2026-11-27T22:13:29+00:00"
+  },
+  "parent#morpho": {
+    "gecko_id": "morpho",
+    "symbol": "MORPHO",
+    "name": "Morpho",
+    "slug": "morpho",
+    "fetched_utc": "2026-11-27T22:13:29+00:00"
+  },
+  "parent#jupiter": {
+    "gecko_id": "jupiter-exchange-solana",
+    "symbol": "JUP",
+    "name": "Jupiter",
+    "slug": "jupiter",
+    "fetched_utc": "2026-11-27T22:13:29+00:00"
+  },
+  "parent#ethena": {
+    "gecko_id": "ethena",
+    "symbol": "ENA",
+    "name": "Ethena",
+    "slug": "ethena",
+    "fetched_utc": "2026-11-27T22:13:29+00:00"
+  },
+  "parent#spark": {
+    "gecko_id": "spark-2",
+    "symbol": "SPK",
+    "name": "Spark",
+    "slug": "spark",
+    "fetched_utc": "2026-11-27T22:13:29+00:00"
+  },
+  "parent#meteora": {
+    "gecko_id": "meteora",
+    "symbol": "MET",
+    "name": "Meteora",
+    "slug": "meteora",
+    "fetched_utc": "2026-11-27T22:13:29+00:00"
+  },
+  "parent#aero-protocol": {
+    "gecko_id": "aero",
+    "symbol": "AERO",
+    "name": "Aero",
+    "slug": "aero-protocol",
+    "fetched_utc": "2026-11-27T22:13:30+00:00"
+  },
+  "parent#paxos": {
+    "gecko_id": null,
+    "symbol": "PAXG",
+    "name": "Paxos",
+    "slug": "paxos",
+    "fetched_utc": "2026-11-27T22:13:30+00:00"
+  },
+  "parent#axiom": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Axiom",
+    "slug": "axiom",
+    "fetched_utc": "2026-11-27T22:13:30+00:00"
+  },
+  "parent#ether-fi": {
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "parent#raydium": {
+    "gecko_id": "raydium",
+    "symbol": "RAY",
+    "name": "Raydium",
+    "slug": "raydium",
+    "fetched_utc": "2026-11-27T22:13:31+00:00"
+  },
+  "parent#pancakeswap": {
+    "gecko_id": "pancakeswap-token",
+    "symbol": "CAKE",
+    "name": "PancakeSwap",
+    "slug": "pancakeswap",
+    "fetched_utc": "2026-11-27T22:13:31+00:00"
+  },
+  "parent#lighter": {
+    "gecko_id": "lighter",
+    "symbol": "LIT",
+    "name": "Lighter",
+    "slug": "lighter",
+    "fetched_utc": "2026-11-27T22:13:32+00:00"
+  },
+  "parent#maple-finance": {
+    "gecko_id": "syrup",
+    "symbol": "SYRUP",
+    "name": "Maple Finance",
+    "slug": "maple-finance",
+    "fetched_utc": "2026-11-27T22:13:32+00:00"
+  },
+  "parent#chainlink": {
+    "gecko_id": "chainlink",
+    "symbol": "LINK",
+    "name": "Chainlink",
+    "slug": "chainlink",
+    "fetched_utc": "2026-11-27T22:13:32+00:00"
+  },
+  "parent#securitize": {
+    "gecko_id": "securitize-corp",
+    "symbol": "-",
+    "name": "Securitize",
+    "slug": "securitize",
+    "fetched_utc": "2026-11-27T22:13:32+00:00"
+  },
+  "parent#near-protocol": {
+    "gecko_id": "near",
+    "symbol": "NEAR",
+    "name": "NEAR Protocol",
+    "slug": "near-protocol",
+    "fetched_utc": "2026-11-27T22:13:32+00:00"
+  },
+  "parent#fomo": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "fomo",
+    "slug": "fomo",
+    "fetched_utc": "2026-11-27T22:13:32+00:00"
+  },
+  "parent#astherus": {
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "parent#ondo-finance": {
+    "gecko_id": "ondo-finance",
+    "symbol": "ONDO",
+    "name": "Ondo Finance",
+    "slug": "ondo-finance",
+    "fetched_utc": "2026-11-27T22:13:33+00:00"
+  },
+  "parent#curve-finance": {
+    "gecko_id": "curve-dao-token",
+    "symbol": "CRV",
+    "name": "Curve Finance",
+    "slug": "curve-finance",
+    "fetched_utc": "2026-11-27T22:13:34+00:00"
+  },
+  "parent#sanctum": {
+    "gecko_id": "sanctum-2",
+    "symbol": "SANC",
+    "name": "Sanctum",
+    "slug": "sanctum",
+    "fetched_utc": "2026-11-27T22:13:34+00:00"
+  },
+  "parent#jito": {
+    "gecko_id": "jito-governance-token",
+    "symbol": "JTO",
+    "name": "Jito",
+    "slug": "jito",
+    "fetched_utc": "2026-11-27T22:13:34+00:00"
+  },
+  "parent#gmx": {
+    "gecko_id": "gmx",
+    "symbol": "GMX",
+    "name": "GMX",
+    "slug": "gmx",
+    "fetched_utc": "2026-11-27T22:13:34+00:00"
+  },
+  "parent#phantom": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Phantom",
+    "slug": "phantom",
+    "fetched_utc": "2026-11-27T22:13:34+00:00"
+  },
+  "parent#sentora": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Sentora",
+    "slug": "sentora",
+    "fetched_utc": "2026-11-27T22:13:34+00:00"
+  },
+  "parent#pons": {
+    "gecko_id": "pons",
+    "symbol": "PONS",
+    "name": "Pons",
+    "slug": "pons",
+    "fetched_utc": "2026-11-27T22:13:34+00:00"
+  },
+  "parent#orca": {
+    "gecko_id": "orca",
+    "symbol": "ORCA",
+    "name": "Orca",
+    "slug": "orca",
+    "fetched_utc": "2026-11-27T22:13:34+00:00"
+  },
+  "parent#kamino-finance": {
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "parent#bonkfun": {
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "parent#azverse": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "AZverse",
+    "slug": "azverse",
+    "fetched_utc": "2026-11-27T22:13:36+00:00"
+  },
+  "parent#metamask": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "MetaMask",
+    "slug": "metamask",
+    "fetched_utc": "2026-11-27T22:13:37+00:00"
+  },
+  "parent#fluid": {
+    "gecko_id": "instadapp",
+    "symbol": "FLUID",
+    "name": "Fluid",
+    "slug": "fluid",
+    "fetched_utc": "2026-11-27T22:13:37+00:00"
+  },
+  "parent#chainflip": {
+    "gecko_id": "chainflip",
+    "symbol": "FLIP",
+    "name": "Chainflip",
+    "slug": "chainflip",
+    "fetched_utc": "2026-11-27T22:13:37+00:00"
+  },
+  "parent#justlend": {
+    "gecko_id": "just",
+    "symbol": "JST",
+    "name": "JustLend",
+    "slug": "justlend",
+    "fetched_utc": "2026-11-27T22:13:37+00:00"
+  },
+  "parent#trust-wallet": {
+    "gecko_id": "trust-wallet-token",
+    "symbol": "TWT",
+    "name": "Trust Wallet",
+    "slug": "trust-wallet",
+    "fetched_utc": "2026-11-27T22:13:37+00:00"
+  },
+  "parent#pacifica": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Pacifica",
+    "slug": "pacifica",
+    "fetched_utc": "2026-11-27T22:13:37+00:00"
+  },
+  "parent#centrifuge": {
+    "gecko_id": "centrifuge-2",
+    "symbol": "CFG",
+    "name": "Centrifuge",
+    "slug": "centrifuge",
+    "fetched_utc": "2026-11-27T22:13:37+00:00"
+  },
+  "parent#marinade-finance": {
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "parent#mellow-protocol": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Mellow Protocol",
+    "slug": "mellow-protocol",
+    "fetched_utc": "2026-11-27T22:13:38+00:00"
+  },
+  "parent#compound-finance": {
+    "gecko_id": "compound-governance-token",
+    "symbol": "COMP",
+    "name": "Compound Finance",
+    "slug": "compound-finance",
+    "fetched_utc": "2026-11-27T22:13:38+00:00"
+  },
+  "parent#edgex": {
+    "gecko_id": "edgex",
+    "symbol": "EDGE",
+    "name": "edgeX",
+    "slug": "edgex",
+    "fetched_utc": "2026-11-27T22:13:38+00:00"
+  },
+  "parent#popdex": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "PopDEX",
+    "slug": "popdex",
+    "fetched_utc": "2026-11-27T22:13:39+00:00"
+  },
+  "parent#solv-protocol": {
+    "gecko_id": "solv-protocol",
+    "symbol": "SOLV",
+    "name": "Solv Protocol",
+    "slug": "solv-protocol",
+    "fetched_utc": "2026-11-27T22:13:39+00:00"
+  },
+  "parent#sosovalue": {
+    "gecko_id": "sosovalue",
+    "symbol": "SOSO",
+    "name": "SoSoValue",
+    "slug": "sosovalue",
+    "fetched_utc": "2026-11-27T22:13:39+00:00"
+  },
+  "parent#pharaoh-exchange": {
+    "gecko_id": "pharaoh-2",
+    "symbol": "PHAR",
+    "name": "Pharaoh Exchange",
+    "slug": "pharaoh-exchange",
+    "fetched_utc": "2026-11-27T22:13:39+00:00"
+  },
+  "parent#okx-dex": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "OKX DEX",
+    "slug": "okx-dex",
+    "fetched_utc": "2026-11-27T22:13:40+00:00"
+  },
+  "parent#nest": {
+    "gecko_id": "nest-2",
+    "symbol": "NEST",
+    "name": "nest",
+    "slug": "nest",
+    "fetched_utc": "2026-11-27T22:13:40+00:00"
+  },
+  "parent#txflow": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "TxFlow",
+    "slug": "txflow",
+    "fetched_utc": "2026-11-27T22:13:40+00:00"
+  },
+  "parent#nado": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Nado",
+    "slug": "nado",
+    "fetched_utc": "2026-11-27T22:13:40+00:00"
+  },
+  "parent#arcus": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Arcus",
+    "slug": "arcus",
+    "fetched_utc": "2026-11-27T22:13:40+00:00"
+  },
+  "parent#kelp-dao": {
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "parent#superstate": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Superstate",
+    "slug": "superstate",
+    "fetched_utc": "2026-11-27T22:13:41+00:00"
+  },
+  "parent#tonstakers": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Tonstakers",
+    "slug": "tonstakers",
+    "fetched_utc": "2026-11-27T22:13:41+00:00"
+  },
+  "parent#ring-protocol": {
+    "gecko_id": "ring-protocol",
+    "symbol": "-",
+    "name": "Ring Protocol",
+    "slug": "ring-protocol",
+    "fetched_utc": "2026-11-27T22:13:41+00:00"
+  },
+  "parent#sun": {
+    "gecko_id": "sun-token",
+    "symbol": "SUN",
+    "name": "SUN",
+    "slug": "sun",
+    "fetched_utc": "2026-11-27T22:13:41+00:00"
+  },
+  "parent#kinetiq": {
+    "gecko_id": "kinetiq",
+    "symbol": "KNTQ",
+    "name": "Kinetiq",
+    "slug": "kinetiq",
+    "fetched_utc": "2026-11-27T22:13:41+00:00"
+  },
+  "parent#liquity": {
+    "gecko_id": "liquity",
+    "symbol": "LQTY",
+    "name": "Liquity",
+    "slug": "liquity",
+    "fetched_utc": "2026-11-27T22:13:41+00:00"
+  },
+  "parent#venus-finance": {
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "parent#li.fi": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Li.Fi",
+    "slug": "li.fi",
+    "fetched_utc": "2026-11-27T22:13:42+00:00"
+  },
+  "parent#gacha": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Gacha",
+    "slug": "gacha",
+    "fetched_utc": "2026-11-27T22:13:43+00:00"
+  },
+  "parent#extended": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Extended",
+    "slug": "extended",
+    "fetched_utc": "2026-11-27T22:13:43+00:00"
+  },
+  "parent#lista-dao": {
+    "gecko_id": "lista",
+    "symbol": "LISTA",
+    "name": "Lista DAO",
+    "slug": "lista-dao",
+    "fetched_utc": "2026-11-27T22:13:43+00:00"
+  },
+  "parent#lyra": {
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "parent#benqi": {
+    "gecko_id": "benqi",
+    "symbol": "QI",
+    "name": "Benqi",
+    "slug": "benqi",
+    "fetched_utc": "2026-11-27T22:13:45+00:00"
+  },
+  "parent#ramses-exchange-hl": {
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "parent#pyth": {
+    "gecko_id": "pyth-network",
+    "symbol": "PYTH",
+    "name": "Pyth",
+    "slug": "pyth",
+    "fetched_utc": "2026-11-27T22:13:46+00:00"
+  },
+  "parent#rabby": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Rabby",
+    "slug": "rabby",
+    "fetched_utc": "2026-11-27T22:13:46+00:00"
+  },
+  "parent#uxuy": {
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "parent#pendle": {
+    "gecko_id": "pendle",
+    "symbol": "PENDLE",
+    "name": "Pendle",
+    "slug": "pendle",
+    "fetched_utc": "2026-11-27T22:13:47+00:00"
+  },
+  "parent#drift": {
+    "gecko_id": "drift-protocol",
+    "symbol": "DRIFT",
+    "name": "Drift",
+    "slug": "drift",
+    "fetched_utc": "2026-11-27T22:13:48+00:00"
+  },
+  "parent#yearn": {
+    "gecko_id": "yearn-finance",
+    "symbol": "YFI",
+    "name": "Yearn",
+    "slug": "yearn",
+    "fetched_utc": "2026-11-27T22:13:52+00:00"
+  },
+  "parent#cian-protocol": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "CIAN Protocol",
+    "slug": "cian-protocol",
+    "fetched_utc": "2026-11-27T22:13:54+00:00"
+  },
+  "parent#usual": {
+    "gecko_id": "usual",
+    "symbol": "USUAL",
+    "name": "Usual",
+    "slug": "usual",
+    "fetched_utc": "2026-11-27T22:13:55+00:00"
+  },
+  "parent#defi-saver": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Defi Saver",
+    "slug": "defi-saver",
+    "fetched_utc": "2026-11-27T22:13:56+00:00"
+  },
+  "parent#hyperdash": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "HyperDash",
+    "slug": "hyperdash",
+    "fetched_utc": "2026-11-27T22:13:56+00:00"
+  },
+  "parent#opensea": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "OpenSea",
+    "slug": "opensea",
+    "fetched_utc": "2026-11-27T22:13:56+00:00"
+  },
+  "parent#frax-finance": {
+    "gecko_id": "frax-share",
+    "symbol": "FRAX",
+    "name": "Frax Finance",
+    "slug": "frax-finance",
+    "fetched_utc": "2026-11-27T22:13:58+00:00"
+  },
+  "parent#sushi": {
+    "gecko_id": "sushi",
+    "symbol": "SUSHI",
+    "name": "Sushi",
+    "slug": "sushi",
+    "fetched_utc": "2026-11-27T22:14:11+00:00"
+  },
+  "parent#stakewise": {
+    "gecko_id": "stakewise",
+    "symbol": "SWISE",
+    "name": "StakeWise",
+    "slug": "stakewise",
+    "fetched_utc": "2026-11-27T22:14:12+00:00"
+  },
+  "parent#avant-protocol": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Avant Protocol",
+    "slug": "avant-protocol",
+    "fetched_utc": "2026-11-27T22:14:12+00:00"
+  },
+  "parent#fake-world-assets": {
+    "gecko_id": "fake-world-assets",
+    "symbol": "FWA",
+    "name": "Fake World Assets",
+    "slug": "fake-world-assets",
+    "fetched_utc": "2026-11-27T22:14:12+00:00"
+  },
+  "parent#bitfi": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "BitFi",
+    "slug": "bitfi",
+    "fetched_utc": "2026-11-27T22:14:13+00:00"
+  },
+  "parent#apex-protocol": {
+    "gecko_id": "apex-token-2",
+    "symbol": "APEX",
+    "name": "ApeX Protocol",
+    "slug": "apex-protocol",
+    "fetched_utc": "2026-11-27T22:14:13+00:00"
+  },
+  "parent#rhea-finance": {
+    "gecko_id": "rhea-2",
+    "symbol": "RHEA",
+    "name": "Rhea Finance",
+    "slug": "rhea-finance",
+    "fetched_utc": "2026-11-27T22:14:16+00:00"
+  },
+  "parent#paperstrategy": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "PaperStrategy",
+    "slug": "paperstrategy",
+    "fetched_utc": "2026-11-27T22:14:16+00:00"
+  },
+  "parent#kyberswap": {
+    "gecko_id": "kyber-network-crystal",
+    "symbol": "KNC",
+    "name": "KyberSwap",
+    "slug": "kyberswap",
+    "fetched_utc": "2026-11-27T22:14:22+00:00"
+  },
+  "parent#mayan-finance": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Mayan Finance",
+    "slug": "mayan-finance",
+    "fetched_utc": "2026-11-27T22:14:22+00:00"
+  },
+  "parent#hyperlend": {
+    "gecko_id": "hyperlend",
+    "symbol": "HPL",
+    "name": "HyperLend",
+    "slug": "hyperlend",
+    "fetched_utc": "2026-11-27T22:14:24+00:00"
+  },
+  "parent#euler": {
+    "gecko_id": "euler",
+    "symbol": "EUL",
+    "name": "Euler",
+    "slug": "euler",
+    "fetched_utc": "2026-11-27T22:14:24+00:00"
+  },
+  "parent#lombard-finance": {
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "parent#dydx": {
+    "gecko_id": "dydx-chain",
+    "symbol": "DYDX",
+    "name": "dYdX",
+    "slug": "dydx",
+    "fetched_utc": "2026-11-27T22:14:25+00:00"
+  },
+  "parent#onekey": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "OneKey",
+    "slug": "onekey",
+    "fetched_utc": "2026-11-27T22:14:25+00:00"
+  },
+  "parent#hydrex": {
+    "gecko_id": "hydrex",
+    "symbol": "HYDX",
+    "name": "Hydrex",
+    "slug": "hydrex",
+    "fetched_utc": "2026-11-27T22:14:25+00:00"
+  },
+  "parent#navi-protocol": {
+    "gecko_id": "navi",
+    "symbol": "NAVX",
+    "name": "NAVI Protocol",
+    "slug": "navi-protocol",
+    "fetched_utc": "2026-11-27T22:14:25+00:00"
+  },
+  "parent#suilend-protocol": {
+    "gecko_id": "suilend",
+    "symbol": "SEND",
+    "name": "Suilend Protocol",
+    "slug": "suilend-protocol",
+    "fetched_utc": "2026-11-27T22:14:27+00:00"
+  },
+  "parent#the-vault": {
+    "gecko_id": "vault-2",
+    "symbol": "V",
+    "name": "The Vault",
+    "slug": "the-vault",
+    "fetched_utc": "2026-11-27T22:14:28+00:00"
+  },
+  "parent#stonkbrokers": {
+    "gecko_id": "stonkbroker",
+    "symbol": "STONKBROKER",
+    "name": "StonkBrokers",
+    "slug": "stonkbrokers",
+    "fetched_utc": "2026-11-27T22:14:28+00:00"
+  },
+  "parent#farcaster": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Farcaster",
+    "slug": "farcaster",
+    "fetched_utc": "2026-11-27T22:14:28+00:00"
+  },
+  "parent#liquid": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Liquid",
+    "slug": "liquid",
+    "fetched_utc": "2026-11-27T22:14:28+00:00"
+  },
+  "parent#layerzero": {
+    "gecko_id": "layerzero",
+    "symbol": "ZRO",
+    "name": "LayerZero",
+    "slug": "layerzero",
+    "fetched_utc": "2026-11-27T22:14:28+00:00"
+  },
+  "parent#aera": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Aera",
+    "slug": "aera",
+    "fetched_utc": "2026-11-27T22:14:29+00:00"
+  },
+  "parent#up": {
+    "gecko_id": "up-2",
+    "symbol": "-",
+    "name": "up",
+    "slug": "up",
+    "fetched_utc": "2026-11-27T22:14:30+00:00"
+  },
+  "parent#unitas": {
+    "gecko_id": "unitas",
+    "symbol": "UP",
+    "name": "Unitas",
+    "slug": "unitas",
+    "fetched_utc": "2026-11-27T22:14:30+00:00"
+  },
+  "parent#hylo": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Hylo",
+    "slug": "hylo",
+    "fetched_utc": "2026-11-27T22:14:31+00:00"
+  },
+  "parent#primit": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Primit",
+    "slug": "primit",
+    "fetched_utc": "2026-11-27T22:14:32+00:00"
+  },
+  "parent#shoebill-finance": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Shoebill Finance",
+    "slug": "shoebill-finance",
+    "fetched_utc": "2026-11-27T22:14:33+00:00"
+  },
+  "parent#phase": {
+    "gecko_id": null,
+    "symbol": "CASH",
+    "name": "Phase",
+    "slug": "phase",
+    "fetched_utc": "2026-11-27T22:14:34+00:00"
+  },
+  "parent#stake.link": {
+    "gecko_id": "stake-link",
+    "symbol": "SDL",
+    "name": "stake.link",
+    "slug": "stake.link",
+    "fetched_utc": "2026-11-27T22:14:35+00:00"
+  },
+  "parent#cetus": {
+    "gecko_id": "cetus-protocol",
+    "symbol": "CETUS",
+    "name": "Cetus",
+    "slug": "cetus",
+    "fetched_utc": "2026-11-27T22:14:35+00:00"
+  },
+  "parent#valantis": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Valantis",
+    "slug": "valantis",
+    "fetched_utc": "2026-11-27T22:14:36+00:00"
+  },
+  "parent#arrakis-finance": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Arrakis Finance",
+    "slug": "arrakis-finance",
+    "fetched_utc": "2026-11-27T22:14:39+00:00"
+  },
+  "parent#dodo": {
+    "gecko_id": "dodo",
+    "symbol": "DODO",
+    "name": "DODO",
+    "slug": "dodo",
+    "fetched_utc": "2026-11-27T22:14:40+00:00"
+  },
+  "parent#ekubo": {
+    "gecko_id": "ekubo-protocol",
+    "symbol": "EKUBO",
+    "name": "Ekubo",
+    "slug": "ekubo",
+    "fetched_utc": "2026-11-27T22:14:40+00:00"
+  },
+  "parent#dragon-swap": {
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "parent#ipor": {
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "parent#gondi": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Gondi",
+    "slug": "gondi",
+    "fetched_utc": "2026-11-27T22:14:43+00:00"
+  },
+  "parent#origin-defi": {
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "parent#coindcx": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "CoinDCX",
+    "slug": "coindcx",
+    "fetched_utc": "2026-11-27T22:14:44+00:00"
+  },
+  "parent#synfutures": {
+    "gecko_id": "synfutures",
+    "symbol": "F",
+    "name": "SynFutures",
+    "slug": "synfutures",
+    "fetched_utc": "2026-11-27T22:14:44+00:00"
+  },
+  "parent#blend": {
+    "gecko_id": "blend",
+    "symbol": "BLND",
+    "name": "Blend",
+    "slug": "blend",
+    "fetched_utc": "2026-11-27T22:14:46+00:00"
+  },
+  "parent#hyperswap": {
+    "gecko_id": "hyperswap",
+    "symbol": "SWAP",
+    "name": "HyperSwap",
+    "slug": "hyperswap",
+    "fetched_utc": "2026-11-27T22:14:47+00:00"
+  },
+  "parent#quickswap": {
+    "gecko_id": "quickswap",
+    "symbol": "QUICK",
+    "name": "Quickswap",
+    "slug": "quickswap",
+    "fetched_utc": "2026-11-27T22:14:53+00:00"
+  },
+  "parent#tokenlon": {
+    "gecko_id": "tokenlon",
+    "symbol": "LON",
+    "name": "Tokenlon",
+    "slug": "tokenlon",
+    "fetched_utc": "2026-11-27T22:14:58+00:00"
+  },
+  "parent#boxa": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Boxa",
+    "slug": "boxa",
+    "fetched_utc": "2026-11-27T22:14:58+00:00"
+  },
+  "parent#gate-products": {
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "parent#inverse-finance": {
+    "gecko_id": "inverse-finance",
+    "symbol": "INV",
+    "name": "Inverse Finance",
+    "slug": "inverse-finance",
+    "fetched_utc": "2026-11-27T22:15:01+00:00"
+  },
+  "parent#sx-bet": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "SX Bet",
+    "slug": "sx-bet",
+    "fetched_utc": "2026-11-27T22:15:02+00:00"
+  },
+  "parent#phoenix": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Phoenix",
+    "slug": "phoenix",
+    "fetched_utc": "2026-11-27T22:15:04+00:00"
+  },
+  "parent#pocket-universe": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Pocket Universe",
+    "slug": "pocket-universe",
+    "fetched_utc": "2026-11-27T22:15:04+00:00"
+  },
+  "parent#o1-exchange": {
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "parent#minswap": {
+    "gecko_id": "minswap",
+    "symbol": "MIN",
+    "name": "Minswap",
+    "slug": "minswap",
+    "fetched_utc": "2026-11-27T22:15:08+00:00"
+  },
+  "parent#loopscale": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Loopscale",
+    "slug": "loopscale",
+    "fetched_utc": "2026-11-27T22:15:08+00:00"
+  },
+  "parent#genius-terminal": {
+    "gecko_id": null,
+    "symbol": "GENIUS",
+    "name": "Genius Terminal",
+    "slug": "genius-terminal",
+    "fetched_utc": "2026-11-27T22:15:09+00:00"
+  },
+  "parent#bitget-wallet": {
+    "gecko_id": null,
+    "symbol": "-",
+    "name": "Bitget Wallet",
+    "slug": "bitget-wallet",
+    "fetched_utc": "2026-11-27T22:15:09+00:00"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "version": "v1",
+  "symbol": "SKY-USDT-SWAP",
+  "questions": {
+    "regime": {
+      "kind": "choice",
+      "instructions": "Which market regime best describes SKY right now? State is a compact numeric snapshot of the SKY-USDT-SWAP perpetual: order book (px), returns in bps (ret_bps), realized vol (vol), trade flow (flow), our position (pos), fundamentals (fund) and market context (mkt). Thesis: Sky earns a spread on USDS reserves, so higher policy rates (a hike is priced for 2026-12-09) support revenue; 9.6x price/holders-revenue with holders revenue +86% month over month and 99% float. Bear case: Revenue depends on USDS supply, and stablecoin supply fell 5.8% in 30 days; buybacks were cut sharply in March 2026; governance can redirect revenue.",
+      "criteria": {
+        "trending": "Persistent directional move: returns over 1h and 4h share a sign and vol is normal for this asset.",
+        "mean_reverting": "Range-bound: short-term moves fade, returns flip sign, vol at or below its 24h level.",
+        "high_vol": "Volatility well above its 24h level (vol.ratio high) without disorderly market structure.",
+        "crisis": "Disorderly: large 24h drawdown, very high vol, wide spreads or thin depth, one-sided flow, market-wide stress."
+      }
+    },
+    "direction": {
+      "kind": "choice",
+      "instructions": "Which direction for SKY has the better expected result over the next ~4 hours after ~15 bps of costs? State is a compact numeric snapshot of the SKY-USDT-SWAP perpetual: order book (px), returns in bps (ret_bps), realized vol (vol), trade flow (flow), our position (pos), fundamentals (fund) and market context (mkt). Thesis: Sky earns a spread on USDS reserves, so higher policy rates (a hike is priced for 2026-12-09) support revenue; 9.6x price/holders-revenue with holders revenue +86% month over month and 99% float. Bear case: Revenue depends on USDS supply, and stablecoin supply fell 5.8% in 30 days; buybacks were cut sharply in March 2026; governance can redirect revenue.",
+      "criteria": {
+        "long": "Rises: rates-up regime favours yield-bearing protocol revenue; buyback flow on the bid.",
+        "short": "Falls: stablecoin outflows shrink USDS and revenue; broad risk-off selling.",
+        "neutral": "No edge after costs, signals conflict, or the move has already happened."
+      }
+    },
+    "toxic_flow": {
+      "kind": "noul",
+      "instructions": "Recent SKY order flow looks informed or one-sided enough that a position opened now would likely be adversely selected (sweeps through levels, sudden spread widening, trade bursts against the resting book).",
+      "criteria": null
+    },
+    "setup_quality": {
+      "kind": "score",
+      "instructions": "How good is the trade setup for SKY right now? State is a compact numeric snapshot of the SKY-USDT-SWAP perpetual: order book (px), returns in bps (ret_bps), realized vol (vol), trade flow (flow), our position (pos), fundamentals (fund) and market context (mkt). Thesis: Sky earns a spread on USDS reserves, so higher policy rates (a hike is priced for 2026-12-09) support revenue; 9.6x price/holders-revenue with holders revenue +86% month over month and 99% float. Bear case: Revenue depends on USDS supply, and stablecoin supply fell 5.8% in 30 days; buybacks were cut sharply in March 2026; governance can redirect revenue.",
+      "criteria": [
+        "No setup: conflicting signals, thin or unstable book, or the move already happened.",
+        "Weak: one supporting signal, others neutral or mixed.",
+        "Good: price action, order flow and fundamentals agree on direction; liquidity is adequate.",
+        "Excellent: strong agreement across flow, regime and fundamentals, tight spread, no conflicting risk."
+      ]
+    },
+    "risk_state": {
+      "kind": "choice",
+      "instructions": "Given our position, drawdown and daily P&L in pos, what is the risk state for SKY?",
+      "criteria": {
+        "safe": "Comfortable room: small inventory, shallow drawdown, daily P&L not near a loss limit.",
+        "near_limit": "Drawdown, daily loss or inventory is approaching the levels where we would have to cut.",
+        "reduce": "Exposure should be cut now: losses accelerating or inventory too large for current conditions."
+      }
+    }
+  }
+}
